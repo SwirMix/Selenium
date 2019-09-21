@@ -1,0 +1,12 @@
+2019-09-22 02:00:09 DEBUG Selenium:34 - ChromeDriver is running
+2019-09-22 02:00:09 DEBUG Selenium:36 - set fullsize of window
+2019-09-22 02:00:09 DEBUG Selenium:47 - created GoogleSearchPage - SUCCESS
+2019-09-22 02:00:11 DEBUG Selenium:49 - loaded google(https://google.com) - SUCCESS
+2019-09-22 02:00:11 DEBUG Selenium:51 - sendKeys: yandex.com
+2019-09-22 02:00:12 DEBUG Selenium:53 - go to result of search
+2019-09-22 02:00:12 INFO  Selenium:62 - href on first link: https://yandex.ru/
+2019-09-22 02:00:12 DEBUG Selenium:65 - click on first link
+2019-09-22 02:00:13 ERROR Selenium:42 - Failed Assertion, expected: just_test_of_artefacts_Grubber but actual: https://yandex.ru/
+2019-09-22 02:00:13 ERROR Selenium:43 - Assert: Search_yandex_test_failed_assert_current_url
+2019-09-22 02:00:15 ERROR Selenium:28 - Failed screenshot: artefacts/Search_yandex_test_failed_assert_current_url_1569106815002.png
+2019-09-22 02:00:15 ERROR Selenium:35 - Failed assert: artefacts/Search_yandex_test_failed_assert_current_url_1569106815002.png and his html: Search_yandex_test_failed_assert_current_url_1569106815862.html
