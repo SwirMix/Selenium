@@ -63,7 +63,7 @@ public class Selenium {
         waitForLoadPage(4000, driver);//wait full page
 
         String current_url = driver.getCurrentUrl();//check current url
-        assertTwoStringParams("just_test_of_artefacts_Grubber", current_url, driver, this.testName + "_failed_assert_current_url", logger);
+        assertTwoStringParams("just_test_artefacts_Grubber", current_url, driver, this.testName + "_failed_assert_current_url", logger);
     }
 
     @After
